@@ -15,14 +15,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:email_password_login/model/user_model.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-
 import 'login_screen.dart';
-
-// import 'package:flutter_application_the_crave/Pages/Dessert.dart';
-// import 'package:flutter_application_the_crave/Pages/menu_page.dart';
-// import 'package:flutter_application_the_crave/Pages/starter.dart';
-// import 'package:flutter_application_the_crave/Wallet.dart';
-// import 'Pages/chinese.dart';
 
 class Homepage extends StatefulWidget {
   const Homepage({Key? key}) : super(key: key);
@@ -51,25 +44,31 @@ class _HomepageState extends State<Homepage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text(
-            'The Crave~',
-            style: TextStyle(fontStyle: FontStyle.italic),
-          ),
-          // centerTitle: true,
-          backgroundColor: Colors.black,
-        ),
+            title: Text(
+              'The Crave~',
+              style: TextStyle(
+                  fontStyle: FontStyle.italic,
+                  color: Color.fromARGB(255, 39, 42, 38),
+                  fontSize: 25),
+            ),
+            iconTheme: IconThemeData(color: Colors.redAccent),
+            // centerTitle: true,
+            backgroundColor: Colors.white),
         drawer: Drawer(
           child: Container(
-              color: Colors.black,
+              color: Color.fromARGB(255, 255, 255, 255),
               child: ListView(children: [
                 DrawerHeader(
-                  decoration: BoxDecoration(color: Colors.orange),
+                  decoration:
+                      BoxDecoration(color: Color.fromARGB(255, 23, 17, 128)),
                   child: Column(
                     children: [
                       Text(
                         "Welcome Back",
                         style: TextStyle(
-                            fontSize: 20, fontWeight: FontWeight.bold),
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white),
                       ),
                       SizedBox(
                         height: 10,
@@ -77,12 +76,12 @@ class _HomepageState extends State<Homepage> {
                       Text(
                           "${loggedInUser.firstName} ${loggedInUser.secondName}",
                           style: TextStyle(
-                            color: Colors.black54,
+                            color: Colors.white,
                             fontWeight: FontWeight.w500,
                           )),
                       Text("${loggedInUser.email}",
                           style: TextStyle(
-                            color: Colors.black54,
+                            color: Colors.white,
                             fontWeight: FontWeight.w500,
                           )),
                       SizedBox(
@@ -99,11 +98,11 @@ class _HomepageState extends State<Homepage> {
                 ListTile(
                   leading: const Icon(
                     Icons.food_bank,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                   title: const Text(
                     'Menu',
-                    style: TextStyle(color: Colors.white),
+                    style: TextStyle(color: Colors.black),
                   ),
                   onTap: () {
                     Navigator.of(context).pushReplacement(MaterialPageRoute(
@@ -114,10 +113,10 @@ class _HomepageState extends State<Homepage> {
                 ListTile(
                   leading: const Icon(
                     Icons.wallet,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                   title: const Text('Wallet',
-                      style: TextStyle(color: Colors.white)),
+                      style: TextStyle(color: Colors.black)),
                   onTap: () {
                     // Navigator.of(context).pushReplacement(MaterialPageRoute(
                     //     builder: (BuildContext context) => Wallet()));
@@ -127,20 +126,20 @@ class _HomepageState extends State<Homepage> {
                 ListTile(
                   leading: const Icon(
                     Icons.favorite,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                   title: const Text('My Favourites',
-                      style: TextStyle(color: Colors.white)),
+                      style: TextStyle(color: Colors.black)),
                   onTap: () {},
                 ),
                 Padding(padding: EdgeInsets.all(10.0)),
                 ListTile(
                   leading: const Icon(
                     Icons.star,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                   title: const Text('Rate us',
-                      style: TextStyle(color: Colors.white)),
+                      style: TextStyle(color: Colors.black)),
                   onTap: () {},
                 ),
                 // Padding(padding: EdgeInsets.all(10.0)),
@@ -149,10 +148,10 @@ class _HomepageState extends State<Homepage> {
                 ListTile(
                   leading: const Icon(
                     Icons.contact_support_sharp,
-                    color: Colors.white,
+                    color: Colors.black,
                   ),
                   title: const Text('Contact us',
-                      style: TextStyle(color: Colors.white)),
+                      style: TextStyle(color: Colors.black)),
                   onTap: () {},
                 ),
               ])),
@@ -246,14 +245,14 @@ class _HomepageState extends State<Homepage> {
                     ],
                   ),
                   SizedBox(
-                    height: 20.0,
+                    height: 5.0,
                   ),
                   Column(
                     children: [
                       Row(
                         children: [
                           Padding(
-                            padding: const EdgeInsets.all(15.0),
+                            padding: const EdgeInsets.all(10.0),
                             child: Container(
                               child: InkWell(
                                 onTap: () {
@@ -279,9 +278,9 @@ class _HomepageState extends State<Homepage> {
                                           fontWeight: FontWeight.bold,
                                           color: Colors.pink[399]),
                                     ),
-                                    SizedBox(
-                                      height: 6.0,
-                                    ),
+                                    // SizedBox(
+                                    //   height: 6.0,
+                                    // ),
                                   ],
                                 ),
                               ),
@@ -314,9 +313,9 @@ class _HomepageState extends State<Homepage> {
                                           fontWeight: FontWeight.bold,
                                           color: Colors.pink[399]),
                                     ),
-                                    SizedBox(
-                                      height: 6.0,
-                                    ),
+                                    // SizedBox(
+                                    //   height: 6.0,
+                                    // ),
                                   ],
                                 ),
                               ),
@@ -350,9 +349,9 @@ class _HomepageState extends State<Homepage> {
                                             fontWeight: FontWeight.bold,
                                             color: Colors.pink[399]),
                                       ),
-                                      SizedBox(
-                                        height: 6.0,
-                                      ),
+                                      // SizedBox(
+                                      //   height: 6.0,
+                                      // ),
                                     ],
                                   ),
                                 ),
@@ -361,9 +360,6 @@ class _HomepageState extends State<Homepage> {
                           ),
                         ],
                       ),
-                      // SizedBox(
-                      //   height: 8.0,
-                      // ),
                       Row(
                         children: [
                           Padding(
@@ -616,7 +612,7 @@ class _HomepageState extends State<Homepage> {
                                       ),
                                       SizedBox(height: 6.0),
                                       Text(
-                                        'Briyani Combo',
+                                        'Briyani',
                                         style: TextStyle(
                                             fontSize: 15.0,
                                             fontWeight: FontWeight.bold,

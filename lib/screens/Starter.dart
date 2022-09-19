@@ -1,12 +1,12 @@
 import 'dart:ffi';
-import 'package:email_password_login/Starter_Recipe.dart/S1.dart';
-import 'package:email_password_login/Starter_Recipe.dart/S2.dart';
-import 'package:email_password_login/Starter_Recipe.dart/S3.dart';
-import 'package:email_password_login/Starter_Recipe.dart/S4.dart';
-import 'package:email_password_login/Starter_Recipe.dart/S5.dart';
-import 'package:email_password_login/Starter_Recipe.dart/S6.dart';
-import 'package:email_password_login/Starter_Recipe.dart/S7.dart';
-import 'package:email_password_login/Starter_Recipe.dart/S8.dart';
+import 'package:email_password_login/Starter_Recipe/S1.dart';
+import 'package:email_password_login/Starter_Recipe/S2.dart';
+import 'package:email_password_login/Starter_Recipe/S3.dart';
+import 'package:email_password_login/Starter_Recipe/S4.dart';
+import 'package:email_password_login/Starter_Recipe/S5.dart';
+import 'package:email_password_login/Starter_Recipe/S6.dart';
+import 'package:email_password_login/Starter_Recipe/S7.dart';
+import 'package:email_password_login/Starter_Recipe/S8.dart';
 
 import 'Menu.dart';
 import 'package:flutter/material.dart';
@@ -72,8 +72,8 @@ class _GestureState extends State<Gesture> {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Navigator.of(context).pushReplacement(MaterialPageRoute(
-            builder: (BuildContext context) => S1()));
+        Navigator.of(context).pushReplacement(
+            MaterialPageRoute(builder: (BuildContext context) => S1()));
       },
       child: Column(
         children: [
@@ -159,8 +159,10 @@ class _Gesture_1State extends State<Gesture_1> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {Navigator.of(context).pushReplacement(MaterialPageRoute(
-            builder: (BuildContext context) => S2()));},
+      onTap: () {
+        Navigator.of(context).pushReplacement(
+            MaterialPageRoute(builder: (BuildContext context) => S2()));
+      },
       child: Column(
         children: [
           Container(
@@ -245,8 +247,10 @@ class _Gesture_2State extends State<Gesture_2> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {Navigator.of(context).pushReplacement(MaterialPageRoute(
-            builder: (BuildContext context) => S3()));},
+      onTap: () {
+        Navigator.of(context).pushReplacement(
+            MaterialPageRoute(builder: (BuildContext context) => S3()));
+      },
       child: Column(
         children: [
           Container(
@@ -331,8 +335,10 @@ class _Gesture_3State extends State<Gesture_3> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {Navigator.of(context).pushReplacement(MaterialPageRoute(
-            builder: (BuildContext context) => S4()));},
+      onTap: () {
+        Navigator.of(context).pushReplacement(
+            MaterialPageRoute(builder: (BuildContext context) => S4()));
+      },
       child: Column(
         children: [
           Container(
@@ -417,8 +423,10 @@ class _Gesture4State extends State<Gesture4> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {Navigator.of(context).pushReplacement(MaterialPageRoute(
-            builder: (BuildContext context) => S5()));},
+      onTap: () {
+        Navigator.of(context).pushReplacement(
+            MaterialPageRoute(builder: (BuildContext context) => S5()));
+      },
       child: Column(
         children: [
           Container(
@@ -503,8 +511,10 @@ class _Gesture5State extends State<Gesture5> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {Navigator.of(context).pushReplacement(MaterialPageRoute(
-            builder: (BuildContext context) => S6()));},
+      onTap: () {
+        Navigator.of(context).pushReplacement(
+            MaterialPageRoute(builder: (BuildContext context) => S6()));
+      },
       child: Column(
         children: [
           Container(
@@ -589,8 +599,10 @@ class _Gesture6State extends State<Gesture6> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {Navigator.of(context).pushReplacement(MaterialPageRoute(
-            builder: (BuildContext context) => S7()));},
+      onTap: () {
+        Navigator.of(context).pushReplacement(
+            MaterialPageRoute(builder: (BuildContext context) => S7()));
+      },
       child: Column(
         children: [
           Container(
@@ -675,8 +687,10 @@ class _Gesture7State extends State<Gesture7> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {Navigator.of(context).pushReplacement(MaterialPageRoute(
-            builder: (BuildContext context) => S8()));},
+      onTap: () {
+        Navigator.of(context).pushReplacement(
+            MaterialPageRoute(builder: (BuildContext context) => S8()));
+      },
       child: Column(
         children: [
           Container(

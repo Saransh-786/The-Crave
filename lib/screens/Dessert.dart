@@ -1,11 +1,11 @@
-import 'package:email_password_login/Dessert_Recipe.dart/D1.dart';
-import 'package:email_password_login/Dessert_Recipe.dart/D2.dart';
-import 'package:email_password_login/Dessert_Recipe.dart/D3.dart';
-import 'package:email_password_login/Dessert_Recipe.dart/D4.dart';
-import 'package:email_password_login/Dessert_Recipe.dart/D5.dart';
-import 'package:email_password_login/Dessert_Recipe.dart/D6.dart';
-import 'package:email_password_login/Dessert_Recipe.dart/D7.dart';
-import 'package:email_password_login/Dessert_Recipe.dart/D8.dart';
+import 'package:email_password_login/Dessert_Recipe/D1.dart';
+import 'package:email_password_login/Dessert_Recipe/D2.dart';
+import 'package:email_password_login/Dessert_Recipe/D3.dart';
+import 'package:email_password_login/Dessert_Recipe/D4.dart';
+import 'package:email_password_login/Dessert_Recipe/D5.dart';
+import 'package:email_password_login/Dessert_Recipe/D6.dart';
+import 'package:email_password_login/Dessert_Recipe/D7.dart';
+import 'package:email_password_login/Dessert_Recipe/D8.dart';
 import 'package:flutter/material.dart';
 // import 'package:flutter_application_the_crave/Pages/Desert_Recipe.dart';
 

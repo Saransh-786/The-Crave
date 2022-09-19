@@ -1,12 +1,13 @@
-import 'package:email_password_login/Beverages_Recipe.dart/B1.dart';
-import 'package:email_password_login/Beverages_Recipe.dart/B2.dart';
-import 'package:email_password_login/Beverages_Recipe.dart/B3.dart';
-import 'package:email_password_login/Beverages_Recipe.dart/B4.dart';
-import 'package:email_password_login/Beverages_Recipe.dart/B5.dart';
-import 'package:email_password_login/Beverages_Recipe.dart/B6.dart';
-import 'package:email_password_login/Beverages_Recipe.dart/B7.dart';
+import 'package:email_password_login/Beverages_Recipe/B1.dart';
+import 'package:email_password_login/Beverages_Recipe/B2.dart';
+import 'package:email_password_login/Beverages_Recipe/B3.dart';
+import 'package:email_password_login/Beverages_Recipe/B4.dart';
+import 'package:email_password_login/Beverages_Recipe/B5.dart';
+import 'package:email_password_login/Beverages_Recipe/B6.dart';
+import 'package:email_password_login/Beverages_Recipe/B7.dart';
 import 'package:flutter/material.dart';
 import 'Menu.dart';
+import 'MapBeverage.dart';
 
 class Beverage extends StatelessWidget {
   const Beverage({Key? key}) : super(key: key);

@@ -1,11 +1,11 @@
-import 'package:email_password_login/Chinese_Recipe.dart/C1.dart';
-import 'package:email_password_login/Chinese_Recipe.dart/C2.dart';
-import 'package:email_password_login/Chinese_Recipe.dart/C3.dart';
-import 'package:email_password_login/Chinese_Recipe.dart/C4.dart';
-import 'package:email_password_login/Chinese_Recipe.dart/C5.dart';
-import 'package:email_password_login/Chinese_Recipe.dart/C6.dart';
-import 'package:email_password_login/Chinese_Recipe.dart/C7.dart';
-import 'package:email_password_login/Chinese_Recipe.dart/C8.dart';
+import 'package:email_password_login/Chinese_Recipe/C1.dart';
+import 'package:email_password_login/Chinese_Recipe/C2.dart';
+import 'package:email_password_login/Chinese_Recipe/C3.dart';
+import 'package:email_password_login/Chinese_Recipe/C4.dart';
+import 'package:email_password_login/Chinese_Recipe/C5.dart';
+import 'package:email_password_login/Chinese_Recipe/C6.dart';
+import 'package:email_password_login/Chinese_Recipe/C7.dart';
+import 'package:email_password_login/Chinese_Recipe/C8.dart';
 import 'package:flutter/material.dart';
 
 import 'Menu.dart';

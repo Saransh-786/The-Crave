@@ -1,5 +1,7 @@
 import 'package:email_password_login/screens/MaincourseNon.dart';
 import 'package:flutter/material.dart';
+import 'package:email_password_login/screens/Cart.dart';
+import 'package:email_password_login/screens/MapBeverage.dart';
 
 class MN4 extends StatefulWidget {
   const MN4({Key? key}) : super(key: key);
@@ -113,7 +115,11 @@ class _MN4State extends State<MN4> {
                             borderRadius: BorderRadius.circular(50),
                           ),
                           elevation: 5),
-                      onPressed: () {},
+                      onPressed: () {
+                        setState(() {
+                          addValueTocartMap(cartmap, Nonveg(), 'object.3');
+                        });
+                      },
                       child: const Text(
                         'Add to Cart',
                         style: TextStyle(
